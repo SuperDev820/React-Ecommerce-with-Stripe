@@ -1,0 +1,115 @@
+main {
+  min-height: 85vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart .cart-badge {
+  display: flex;
+  background-color: #2962ff;
+  border-radius: 100%;
+  color: #fff;
+  font-size: .6rem;
+  font-weight: 600;
+  height: 16px;
+  position: absolute;
+  right: -2px;
+  text-align: center;
+  top: 2px;
+  width: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+
+.card-img-top {
+  width: 210px;
+  height: 210px;
+}
+
+.signup-provider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.btn-text {
+  padding-left: 5px;
+}
+
+.google-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px 20px;
+  margin-top: 15px;
+  width: 300px;
+  max-width: 350px;
+  border: 1px solid #eceef3;
+  border-radius: 3px;
+}
+
+.google-icon {
+  width: 30px;
+  height: 30px;
+}
